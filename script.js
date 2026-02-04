@@ -83,14 +83,29 @@
 //   console.log("Hello " + x);
 // });
 
-function callback(para) {
-  para("hiii parameter");
-}
+// function callback(para) {
+//   para("hiii parameter");
+// }
 
-callback((y) => {
-  console.log("helllo" + " " + y);
+// callback((y) => {
+//   console.log("helllo" + " " + y);
+// });
+
+// console.log("end of js file");
+
+// confirm("Do you want to continue?");'
+
+// ----------------------------------------------------------------------------
+// promises
+
+const p = new Promise((resolve, reject) => {
+  console.log("waiting...................");
+
+  setTimeout(() => {
+    resolve("balle balle");
+    reject("oops try again");
+  }, 2000);
 });
-
-console.log("end of js file");
-
-confirm("Do you want to continue?");
+p.then((response) => console.log("fullfiled", response)).catch((err) =>
+  console.log("fullfiled", err),
+);
