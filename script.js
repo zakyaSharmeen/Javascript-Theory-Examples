@@ -92,3 +92,5 @@ callback((y) => {
 });
 
 console.log("end of js file");
+
+confirm("Do you want to continue?");
