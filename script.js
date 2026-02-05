@@ -149,3 +149,25 @@
 // console.log(name)
 // console.log(classes)
 // console.log(rest)
+
+// --------------------------------------------------------------------
+// destructuring
+// 1.const arrays = [13, 24, 68]
+// const [a, b, c]= arrays
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+// 2.
+// const arr = [10, 20, 30];
+// // const [ , second] = arr;
+// const [, ,c] = arr
+// console.log(c); // 20
+
+3;
+// const user = { name: "Ayush", age: 70 };
+
+// const { name:myname, age } = user;
+
+// console.log(myname); // Ayush
+// console.log(age);
