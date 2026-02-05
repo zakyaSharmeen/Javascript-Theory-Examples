@@ -134,3 +134,18 @@
 // const e = [4, 5, 678, 9, 0];
 // const spreading = [...d, ...e];
 // console.log(spreading);
+
+// --------------------------------------------------------------------
+
+// rest operator--------
+// 1.const arr = [1,2,34,5,6,8,0,9]
+// const [a, ...rest] = arr
+// console.log(a)
+// console.log(rest)
+//
+
+// 2.const userObject = {name: "ansh", classes: 3, city: "solalpur"}
+// const {name,classes,...rest} =userObject
+// console.log(name)
+// console.log(classes)
+// console.log(rest)
