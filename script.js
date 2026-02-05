@@ -98,14 +98,39 @@
 // ----------------------------------------------------------------------------
 // promises
 
-const p = new Promise((resolve, reject) => {
-  console.log("waiting...................");
+// const p = new Promise((resolve, reject) => {
+//   console.log("waiting...................");
 
-  setTimeout(() => {
-    resolve("balle balle");
-    reject("oops try again");
-  }, 2000);
-});
-p.then((response) => console.log("fullfiled", response)).catch((err) =>
-  console.log("fullfiled", err),
-);
+//   setTimeout(() => {
+//     resolve("balle balle");
+//     reject("oops try again");
+//   }, 2000);
+// });
+// p.then((response) => console.log("fullfiled", response)).catch((err) =>
+//   console.log("fullfiled", err),
+// );
+
+// /------------------------------------------------------------------------------
+//
+
+// async function getUser() {
+//   try {
+//     const response = await fetch(
+//       "https://jsonplaceholder.typicode.com/users/1",
+//     );
+//     const data = await response.json(); // parsing happens here
+//     console.log(data);
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
+// getUser();
+
+//////////////////////////////////////////////////----------------------------------
+
+// spreadoperator
+
+// const d = [1, 3, 4, 56, 7];
+// const e = [4, 5, 678, 9, 0];
+// const spreading = [...d, ...e];
+// console.log(spreading);
