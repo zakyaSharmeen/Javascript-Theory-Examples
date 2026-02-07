@@ -171,3 +171,14 @@
 
 // console.log(myname); // Ayush
 // console.log(age);
+
+// --------------------------------------------------------------------
+// IIFE - Immediately Invoked Function Expression
+(() => console.log("Run"))();
+
+(() => console.log("run"))();
+
+// --------------------------------------------------------------------
+console.log("end of js file");
+console.log("end of js file");
+console.log("end of js file");
